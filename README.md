@@ -51,7 +51,7 @@ This application uses [Google Cloud Speech streaming API](https://cloud.google.c
 	```
 1. Deploy application
 	```
-	mvn clean jetty:run
+	sudo mvn clean jetty:run
 	```
 	
 ### ML Walkthrough Application
@@ -83,7 +83,10 @@ This application uses [Google Cloud Speech streaming API](https://cloud.google.c
 	npm start
 	```
 1. Open the web preview
-	- You will need to navigate your speech-client GCE instance first to accept the self signed certificate
+	- Navigate your speech-client GCE instance first to accept the self signed certificate:
+	- Go to the GCE Instance page and open up External IP
+	- Refresh web preview page
+	
 
 
 ## Sources
